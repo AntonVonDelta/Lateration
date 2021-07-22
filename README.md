@@ -23,4 +23,5 @@ The arduino scripts counts how many `cycles` pass between the first sound event 
 The calibration also uses the coordinate system and not the length between one or the other microphone.
 
 #Circuit
-![Circuit](Schematic.png)
+
+![Circuit](Schematic_Triangulation.png)

@@ -21,3 +21,6 @@ The python script needs an initial calibration to account for the timming differ
 The arduino scripts counts how many `cycles` pass between the first sound event and the second one while retaining the order of the events. This data is communicated over serial to the python scripts which uses a Linear Regression model to translate the cycle counts to actual distance. Then the distance is translated to a `x coordinate` which is relative to `Mic1`. 
 
 The calibration also uses the coordinate system and not the length between one or the other microphone.
+
+#Circuit
+![Circuit](Schematic.png)

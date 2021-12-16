@@ -12,7 +12,7 @@ The python script needs an initial calibration to account for the timming differ
    2. Enter the **x coordinate** at which you made the sound in the python script. 
    3. Repeat the process with another point near Mic1. 
    4. Calibrate. Now the Linear Regression for **Mic2** is done.
-   5. Repeat the aboce steps to calibrate **Mic1** by making sharp noises near **Mic2**. The calibration is always referenced to **Mic1** and is the coordinate at which the sound was made. No need to account for the currently calibrated mic.
+   5. Repeat the above steps to calibrate **Mic1** by making sharp noises near **Mic2**. The calibration is always referenced to **Mic1** and is the coordinate at which the sound was made. No need to account for the currently calibrated mic.
 
    After the initial calibration any point between the two microphones should be determined within **1 cm** accuracy! Precision is not very high meaning one measurement or two are needed to 'hit' on the 1 cm precision. This is due to the fact that the first sound wave is missed by one of the mics and only the next echo triggers it.
    
